@@ -1,0 +1,49 @@
+.section-hero {
+    background-color: var(--primary-500);
+    color: white;
+}
+
+.section-hero .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-text button {
+    align-self: flex-start;
+}
+
+.photo {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+
+    .circle-one {
+        background-color: #fff;
+        display: block;
+        position: relative;
+        top: -10rem;
+        right: 20rem;
+        width: 60rem;
+        height: 60rem;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .picture {
+        z-index: 10;
+        width: 40rem;
+        height: 40rem;
+
+    }
+}

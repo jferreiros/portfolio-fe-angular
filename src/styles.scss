@@ -1,1 +1,92 @@
-/* You can add global styles to this file, and also import other style files */
+/* <---------------- Basic Styling ----------------> */
+
+:root {
+    --primary-600: #56a2ff;
+    --primary-500: #0072ff;
+    --primary-400:#003c86;
+    --secondary-600: #FFAF19;
+    --secondary-500:#FFA500;
+    --secondary-400:#B37400;
+    --neutral-900: #191a1a;
+    --neutral-800: #393a3a;
+    --neutral-700: #575959;
+    --neutral-200: #f4f4f4;
+    --success: #477f42;
+    --error: #ee5521;
+}
+
+* {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+    margin: 2.5rem 0 0.5rem;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.8rem;
+    max-width: 70ch;
+    margin: 1rem 0;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    font-size: 1.8rem;
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.btn {
+    border: none;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    border-radius: 0.5vh;
+    margin: 1rem 0 0 0;
+    align-self: flex-start;
+}
+.btn-primary {
+    background-color: var(--primary-500);
+    color: white;
+}
+.btn-secondary {
+    background-color: var(--primary-500);
+    color: white;
+    border: 2px solid var(--neutral-200);
+}
+
+/* <---------------- Body ----------------> */
+
+body {
+    background: var(--neutral-200);
+}
