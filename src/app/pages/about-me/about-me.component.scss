@@ -1,0 +1,38 @@
+.section-about-me {
+    background-color: var(--primary-500);
+    color: white;
+}
+.section-title {
+    height: 15vh;
+    background-color: var(--neutral-200);
+    color: var(--neutral-800);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.6rem 0 1.2rem;
+
+    h2 {
+        margin: 0;
+    }
+}
+
+.wrapper {    
+    min-height: 75vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+
+
+}
+
+.aboutme button {
+    align-self: center;
+}

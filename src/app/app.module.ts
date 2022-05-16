@@ -12,6 +12,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { CardListComponent } from './components/card-list/card-list.component';
 import { CardComponent } from './components/card/card.component';
 import { ButtonComponent } from './components/button/button.component';
+import { ProjectComponent } from './pages/project/project.component';
+import { IndexCursoComponent } from './pages/index-curso/index-curso.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ButtonComponent } from './components/button/button.component';
     ContactComponent,
     CardListComponent,
     CardComponent,
-    ButtonComponent
+    ButtonComponent,
+    ProjectComponent,
+    IndexCursoComponent
   ],
   imports: [
     BrowserModule,

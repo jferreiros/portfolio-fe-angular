@@ -74,6 +74,11 @@ img {
     border-radius: 0.5vh;
     margin: 1rem 0 0 0;
     align-self: flex-start;
+    cursor: pointer;
+    &:hover {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
 }
 .btn-primary {
     background-color: var(--primary-500);
@@ -89,4 +94,12 @@ img {
 
 body {
     background: var(--neutral-200);
+    // min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+app-root {
+    min-height: 100vh;
+
 }

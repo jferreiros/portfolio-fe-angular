@@ -1,1 +1,25 @@
-<p>card works!</p>
+<div *ngIf="project" class="card project-card">
+    <div *ngIf="project.img" class="card-img" routerLink="/projects/{{project.id}}" style="background-image: url('assets/images/projects/{{project.img[0]}}');">
+        <img *ngIf="project.img" src="../../../assets/images/projects/{{project.img[0]}}" alt="">
+    </div>
+    <div class="card-text-box">
+        <div class="card-date">
+            <span class="card-date">{{ project.dateStart }}</span>
+            <span class="card-date" *ngIf="project.dateEnd"> - {{ project.dateEnd }}</span>
+        </div>
+        <div class="card-text">
+            <a class="card-subject" routerLink="/projects/{{project.id}}">{{ project.subject }}</a><br>
+            <span class="card-title">{{ project.title }}</span>
+        </div>
+        <ul class="card-tech">
+            <li *ngFor="let tag of project.tags" class="tech-categorie {{tag}}">{{ tag }}</li>
+        </ul>
+        <p class="card-description">{{ project.description }}</p>
+        <!-- <p *ngFor="let p of project.description" class="card-description">{{ p }}</p> -->
+        <div class="card-btn">
+            <a *ngIf="project.github" href="{{project.github}}" class="btn btn-github"><img src="../../../assets/images/github.svg" alt="">Git-Hub</a>
+            <a *ngIf="project.deploy" href="{{project.deploy}}" class="btn btn-live-preview"><img src="../../../assets/images/live.svg" alt=""> Live View</a>
+            <a *ngIf="!project.deploy" href="/projects/{{project.id}}" class="btn btn-live-preview"><img src="../../../assets/images/live.svg" alt=""> Ver más</a>
+        </div>
+    </div>
+</div>
