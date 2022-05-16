@@ -1,6 +1,6 @@
 import { Component, OnInit, Output } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { Project } from 'src/models/Project';
+import { Project } from 'src/models/project';
 import { ProjectService } from 'src/services/project.service';
 
 @Component({

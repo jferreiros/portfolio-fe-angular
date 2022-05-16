@@ -13,7 +13,6 @@ import { CardListComponent } from './components/card-list/card-list.component';
 import { CardComponent } from './components/card/card.component';
 import { ButtonComponent } from './components/button/button.component';
 import { ProjectComponent } from './pages/project/project.component';
-import { IndexCursoComponent } from './pages/index-curso/index-curso.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +27,6 @@ import { IndexCursoComponent } from './pages/index-curso/index-curso.component';
     CardComponent,
     ButtonComponent,
     ProjectComponent,
-    IndexCursoComponent
   ],
   imports: [
     BrowserModule,
