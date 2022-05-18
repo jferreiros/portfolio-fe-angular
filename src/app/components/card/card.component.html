@@ -17,8 +17,8 @@
         <p class="card-description">{{ project.description }}</p>
         <!-- <p *ngFor="let p of project.description" class="card-description">{{ p }}</p> -->
         <div class="card-btn">
-            <a *ngIf="project.github" href="{{project.github}}" class="btn btn-github"><img src="../../../assets/images/github.svg" alt="">Git-Hub</a>
-            <a *ngIf="project.deploy" href="{{project.deploy}}" class="btn btn-live-preview"><img src="../../../assets/images/live.svg" alt=""> Live View</a>
+            <a *ngIf="project.github" href="{{project.github}}" class="btn btn-github" target="_blank"><img src="../../../assets/images/github.svg" alt="">Git-Hub</a>
+            <a *ngIf="project.deploy" href="{{project.deploy}}" class="btn btn-live-preview" target="_blank"><img src="../../../assets/images/live.svg" alt=""> Live View</a>
             <a *ngIf="!project.deploy" href="/projects/{{project.id}}" class="btn btn-live-preview"><img src="../../../assets/images/live.svg" alt=""> Ver más</a>
         </div>
     </div>

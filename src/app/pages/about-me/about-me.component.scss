@@ -33,6 +33,20 @@
 
 }
 
-.aboutme button {
+.aboutme a {
     align-self: center;
+}
+
+@media screen and (max-width: 1150px) {
+
+}
+
+@media screen and (max-width: 750px) {
+
+}
+
+@media screen and (max-width: 450px) {
+    .section-title {
+        padding: 3.6rem 1.2rem 1.2rem;
+    }
 }

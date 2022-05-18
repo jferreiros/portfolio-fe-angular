@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     min-height: 15vh;
     padding: 3.6rem 0 1.2rem;
 
@@ -35,7 +36,30 @@
 
 }
 
-.skills-view img {
+.skills-view svg {
     max-width: 100%;
     max-height: 10vh;
+}
+
+@media screen and (max-width: 1150px) {
+    .skills-view {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .skills-view {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-title {
+        padding: 3.6rem 1.2rem 1.2rem;
+    }
+    
+    .skills-view {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

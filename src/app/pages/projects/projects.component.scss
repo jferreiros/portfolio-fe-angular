@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     
 
     h2 {
@@ -187,6 +188,9 @@
 }
 
 @media screen and (max-width: 450px) {
+    .section-title {
+        padding: 3.6rem 1.2rem 1.2rem;
+    }
     .skills-view {
         grid-template-columns: repeat(3, 1fr);
     }

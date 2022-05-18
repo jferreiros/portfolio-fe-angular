@@ -1,0 +1,25 @@
+.mobile-menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 10vh;
+    background-color: #0072ff;
+    width: 100%;
+    border-top: 0.2rem solid #fff;
+
+    a {
+        // border-right: 0.1rem solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            color: #fff;
+            width: 3.2rem;
+        }
+
+        svg {
+            fill: #fff;
+            width: 3.2rem;
+        }
+    }
+}

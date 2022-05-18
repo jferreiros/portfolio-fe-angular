@@ -12,7 +12,7 @@ export const PROJECTS: Project[] = [
         tags: ['angular', 'typescript', 'java', 'spring', 'hibernate', 'sql', 'mariaDB'],
         description: ['Como mi proyecto final en la formación desarrollé un sistema CRUD para un banco, donde los gestores pueden administrar clientes, mensajes y productos del propio banco. Las tecnologías utilizadas fueron Angular, JavaScript, Java, Spring Boot, Hibernate, SQL y MariaDB'],
         github: 'https://github.com/jferreiros/openbank-fe-angular',
-        deploy: 'string'
+        deploy: 'https://openbank-crud.vercel.app'
     },
     {
         id: 15,
@@ -23,8 +23,8 @@ export const PROJECTS: Project[] = [
         img: ['1501.png'],
         tags: ['angular', 'typescript', 'java', 'spring', 'hibernate', 'sql', 'mariaDB'],
         description: ['Fue mi primer proyecto Full Stack individual, donde realice un clon de la WebApp de Spotify, armando un front con la misma estética y un servidor conectado a una base de datos con información suficiente para lograr las mismas funcionalidades que la web original. Para la creación del Front-End usé Angular y Sass. Y en el servidor, utilice Java junto a Spring Boot e Hibernate, consumiendo información de una base de datos SQL en MariaDB.'],
-        github: 'string',
-        deploy: 'string'
+        github: 'https://github.com/jferreiros/spotify-fe-angular',
+        deploy: 'https://spotify-clone-fs.vercel.app'
     },
     {
         id: 14,
@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
         tags: ['angular', 'typescript', 'nodeJs', 'express'],
         description: ['Tutorial de iniciación en Angular, donde lo he implementado con un servidor en NodeJs'],
         github: 'https://github.com/jferreiros/tour-of-heroes-angular',
-        deploy: 'string'
+        deploy: 'https://tour-of-heroes-self.vercel.app'
     },
     {
         id: 18,
@@ -60,7 +60,7 @@ export const PROJECTS: Project[] = [
         tags: ['angular', 'typescript',],
         description: ['Sección de la web de la empresa Atrapalo diseñada en Angular'],
         github: 'https://github.com/jferreiros/atrapalo-fe-angular',
-        deploy: 'string'
+        deploy: 'https://atrapalo-clone.vercel.app/'
     },
     {
         id: 13,
